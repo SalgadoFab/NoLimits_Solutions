@@ -17,7 +17,7 @@
 
     .col-3-socios, .col-4-socios {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
         grid-gap: 3rem;
         margin-bottom: 4rem;
     }
