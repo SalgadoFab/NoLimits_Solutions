@@ -5,11 +5,326 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <title>No Limits Solutions</title>
 
 </head>
 <body>
+
+    <nav class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                NoLimits Solutions
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+        
+        <div class="nav-links">
+            <a href="#inicio" >Inicio</a>
+            <a href="#socios" >Nuestros Socios</a>
+            <a href="#tecnologias" >Tecnologías</a>
+            <a href="#contacto" >Contacto</a>
+        </div>
+    </nav>
+
+
+    <section class="bannerResponsive">
+
+        <div class="sct sctSombra sctBannerPrincipal">
+            <div class="ctnBanner">
+
+                <div class="logoEmpresa">
+                    <img src="media/img/logoEmpresa.png" alt="Logo de Empresa">
+                </div>
+                <div class="parrafoBanner">
+                    <p>
+                        Somos un laboratorio de innovación, desarrollamos productos tecnológicos de alta calidad que generan un valor real y son potencialmente escalables. <br><br>
     
+                        Creamos sitios web, software a la medida y, además, te acompañamos en todo el proceso, desde la idea y conceptualización hasta el prototipo, validación y lanzamiento al mercado.
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+    </section>
+
+
+    <section >
+
+        <div class="sct sctNuestroExito">
+            <div data-aos-duration="1500"  data-aos="fade-up">
+                <h2>
+                    Nuestro éxito está <br>en la satisfacción de nuestros clientes
+                </h2>
+
+                <div class="btnLanding">
+                    <a href="#contacto">¿Tenés un proyecto en mente?</a> 
+                </div>
+                
+              
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="socios" class="sct sctSocios">
+        
+        <div class="sociosTitulo">
+
+            <div class="tituloGeneral">
+                <h2>Nuestros Socios</h2>
+            </div>
+
+            <p>
+                Somos humanos, nuestro compromiso es con la calidad y la cercanía a nuestros clientes.
+                <br><br>
+                Desarrollamos productos y soluciones con resultados reales. Confiá tu proyecto de software en nosotros, y lleve tu idea al siguiente nivel.
+            </p>
+        </div>
+
+        <div class="col-3-socios">
+            <div data-aos="fade-up" data-aos-duration="2200"  class="socioCard">
+                <div class="socioImg">
+                    <img src="/media/img/socios/fernando.jpeg" alt="Fernando">
+                    <div class="socioMedia">
+                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="socioContent">
+                    <h3>Fernando</h3>
+                    <h4>Coordinador General</h3>
+                    <p>Entusiasta por la estructuracion y el desarrollo de Sistemas Webs</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2500"   class="socioCard">
+                <div class="socioImg">
+                    <img src="/media/img/socios/fabricio.png" alt="Fabricio Salgado Ulloa">
+                    <div class="socioMedia">
+                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="socioContent">
+                    <h3>Fabricio Salgado Ulloa</h2>
+                    <h4>Coordinador de Desarrollo</h3>
+                    <p>Entusiasta por la estructuracion y el desarrollo de Sistemas Webs</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2800"   class="socioCard">
+                <div class="socioImg">
+                    <img src="/media/img/socios/josh.jpeg" alt="Josh">
+                    <div class="socioMedia">
+                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="socioContent">
+                    <h3>Joshua Sotelo</h2>
+                    <h4>Coordinador de Desarrollo</h3>
+                    <p>Entusiasta por la estructuracion y el desarrollo de Sistemas Webs</p>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="1500"   class="col-3-socios">
+            <div data-aos="fade-up" data-aos-duration="3000"   class="socioCard">
+                <div class="socioImg">
+                    <img src="/media/img/socios/alejandro.jpeg" alt="Fernando">
+                    <div class="socioMedia">
+                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="socioContent">
+                    <h3>Alejandro Jimenez</h2>
+                    <h4>Coordinador de Soporte</h3>
+                    <p>Entusiasta por la estructuracion y el desarrollo de Sistemas Webs</p>
+                </div>
+            </div>
+            <div class="socioCard">
+                <div class="socioImg">
+                    <img src="/media/img/socios/franco.jpeg" alt="Nombre del Miembro">
+                    <div class="socioMedia">
+                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="socioContent">
+                    <h3>Franco Shi Ming</h2>
+                    <h4>Coordinador de Soporte</h3>
+                    <p>Entusiasta por la estructuracion y el desarrollo de Sistemas Webs</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1600"   class="socioCard">
+                <div class="socioImg">
+                    <img src="/media/img/socios/evelyn.jpeg" alt="Nombre del Miembro">
+                    <div class="socioMedia">
+                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="socioContent">
+                    <h3>Evelyn Palma</h2>
+                    <h4>Coordinadora de Calidad</h3>
+                    <p>Entusiasta por la estructuracion y el desarrollo de Sistemas Webs</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+    <section  class="sct sctTecnologias">
+        <div id="tecnologias" class="tituloNuestrasTecnologias">
+            <h2>
+                Tecnologías que <br> manejamos
+            </h2>
+        </div>
+        <div class="nolimitsTecnologias">
+
+            <div data-aos="fade-left" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" class="tecnologiaItem tecnologiaItem-derecha">
+               <div class="marcador"></div>
+               <div class="tecnologiaItem-content">
+                  <h3>HTML</h3>
+                  <p>Siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web.</p>
+               </div>
+            </div>
+         
+            <div data-aos="fade-right" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1200" class="tecnologiaItem tecnologiaItem-izquierda">
+               <div class="marcador"></div>
+               <div class="tecnologiaItem-content">
+                  <h3>CSS</h3>
+                  <p>En español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​</p>
+               </div>
+            </div>
+         
+            <div data-aos="fade-left" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1600" class="tecnologiaItem tecnologiaItem-derecha">
+               <div class="marcador"></div>
+               <div class="tecnologiaItem-content">
+                  <h3>Javascript</h3>
+                  <p>Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
+               </div>
+            </div>
+         
+            <div data-aos="fade-right" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1800" class="tecnologiaItem tecnologiaItem-izquierda">
+               <div class="marcador"></div>
+               <div class="tecnologiaItem-content">
+                  <h3>Node.js</h3>
+                  <p>Es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google.</p>
+               </div>
+            </div>
+         
+         </div>
+    </section>
+
+    <section 
+        data-aos="fade-up" data-aos-duration="2000" 
+        data-aos-anchor-placement="center-bottom" 
+        class="sct sctSombra sctContacto"
+        id="contacto"
+    >
+        <div class="ctnContacto ctnFlex">
+
+            <div class="col-2 dataContacto">
+                <div class="tituloContacto">
+                    <h2>
+                        Contacto
+                    </h2>
+                </div>
+                <div class="descripcionContacto">
+                    <p>
+                        ¿Tiene un proyecto en mente, o un problema que podemos solucionar? <br><br> ¡Hablemos!
+                    </p>
+                </div>
+                <div class="infoContacto">
+                    <a href="tel:+50687119258">Tel: 8711-9258</a>
+                    <a href="mailto:info@nolimits.cr">info@nolimits.cr</a>
+                </div>
+            </div>
+            <div class="col-2">
+                <form>
+                    <div class="formControl ctnFlex">
+                        <div class="col-2">
+                            <input placeholder="Nombre" type="text" id="txtNombre">
+                        </div>
+                        <div class="col-2">
+                            <input placeholder="Telefono" type="text" id="txtNumero">
+                        </div>
+                    </div>
+                    <div class="formControl">
+                        <input placeholder="Email" type="email" id="txtEmail">
+                    </div>
+                    <div class="formControl">
+                        <input placeholder="Mensaje" type="text" id="txtMensaje">
+                    </div>
+                    <div class="btnLanding btnContacto">
+                        <a href="">
+                            Enviar
+                        </a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="socialMedia">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    
+
+   
+    <footer class="footerContainer">
+
+        <div class="footerText">
+            ©2022 NoLimits Solutions. Derechos reservados. 
+        </div>
+
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/index.js"></script>
+
 </body>
 </html>
